@@ -106,7 +106,7 @@ body {
   font-size: 14px;
 }
 
-/* BUTTON INSTAGRAM & LOKASI */
+/* TOMBOL INSTAGRAM & LOKASI */
 .instagram-buttons {
   position: absolute;
   top: var(--instagram-top);
@@ -386,10 +386,10 @@ body {
 
 <div id="invitation">
 
-  <!-- SLIDE 1 (COVER UNDANGAN) -->
+  <!-- SLIDE 1: COVER -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="yes.mp4" type="video/mp4">
+      <source src="ya.mp4" type="video/mp4">
     </video>
     <div class="content">
       <div class="guest-box">
@@ -403,7 +403,7 @@ body {
     <span class="slide-number">01 / 08</span>
   </section>
 
-  <!-- SLIDE 2 (PROFIL MEMPALAI) -->
+  <!-- SLIDE 2: PROFIL MEMPELAI -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
       <source src="01.mp4" type="video/mp4">
@@ -415,18 +415,18 @@ body {
     <span class="slide-number">02 / 08</span>
   </section>
 
-  <!-- SLIDE 3 (QUOTE PENGANTIN) -->
+  <!-- SLIDE 3: 3.mp4 -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_7.mp4" type="video/mp4">
+      <source src="3.mp4" type="video/mp4">
     </video>
     <span class="slide-number">03 / 08</span>
   </section>
 
-  <!-- SLIDE 4 (SAVE THE DATE & COUNTDOWN) -->
+  <!-- SLIDE 4: COUNTDOWN -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_4.mp4" type="video/mp4">
+      <source src="4.mp4" type="video/mp4">
     </video>
     <div class="countdown">
       <h3>Hitung Mundur Acara</h3>
@@ -452,10 +452,10 @@ body {
     <span class="slide-number">04 / 08</span>
   </section>
 
-  <!-- SLIDE 5 (VENUE / LOKASI) -->
+  <!-- SLIDE 5: LOKASI -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_6.mp4" type="video/mp4">
+      <source src="6.mp4" type="video/mp4">
     </video>
     <a href="https://goo.gl/maps/6TXkq95iap6mLPnG8" target="_blank" class="feature-button location-button">
       📍 Petunjuk Lokasi (Google Maps)
@@ -463,18 +463,18 @@ body {
     <span class="slide-number">05 / 08</span>
   </section>
 
-  <!-- SLIDE 6 (WEDDING GIFT) -->
+  <!-- SLIDE 6: 5.mp4 -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_5.mp4" type="video/mp4">
+      <source src="5.mp4" type="video/mp4">
     </video>
     <span class="slide-number">06 / 08</span>
   </section>
 
-  <!-- SLIDE 7 (RSVP & UCAPAN) -->
+  <!-- SLIDE 7: RSVP & UCAPAN -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_8.mp4" type="video/mp4">
+      <source src="8.mp4" type="video/mp4">
     </video>
     <div class="rsvp-box">
       <h2>RSVP & Ucapan</h2>
@@ -502,18 +502,28 @@ body {
     <span class="slide-number">07 / 08</span>
   </section>
 
-  <!-- SLIDE 8 (GALERI FOTO) -->
+  <!-- SLIDE 8: GALERI FOTO -->
   <section class="slide">
     <video class="video-bg" autoplay muted loop playsinline>
-      <source src="video_9.mp4" type="video/mp4">
+      <source src="9.mp4" type="video/mp4">
     </video>
     <div class="gallery-box">
       <h2>Galeri Foto</h2>
       <div class="gallery-grid">
-        <img src="Banjar2.jpg" onclick="showImage(this.src)" alt="Foto Galeri 1">
-        <img src="Sek.jpg" onclick="showImage(this.src)" alt="Foto Galeri 2">
-        <img src="20260914_234617_184.jpg" onclick="showImage(this.src)" alt="Foto Galeri 3">
-        <img src="Tungku.jpg" onclick="showImage(this.src)" alt="Foto Galeri 4">
+        <img src="Banjar1.jpg" onclick="showImage(this.src)" alt="Foto 1">
+        <img src="Banjar2.jpg" onclick="showImage(this.src)" alt="Foto 2">
+        <img src="Banjar3.jpg" onclick="showImage(this.src)" alt="Foto 3">
+        <img src="Banjar4.jpg" onclick="showImage(this.src)" alt="Foto 4">
+        <img src="Banjar 5.jpg" onclick="showImage(this.src)" alt="Foto 5">
+        <img src="Banjar6.jpg" onclick="showImage(this.src)" alt="Foto 6">
+        <img src="Banjar7.jpg" onclick="showImage(this.src)" alt="Foto 7">
+        <img src="Banja8.jpg" onclick="showImage(this.src)" alt="Foto 8">
+        <img src="Banjar9.jpg" onclick="showImage(this.src)" alt="Foto 9">
+        <img src="Banjar10.jpg" onclick="showImage(this.src)" alt="Foto 10">
+        <img src="Sek.jpg" onclick="showImage(this.src)" alt="Foto Sek">
+        <img src="Tungku.jpg" onclick="showImage(this.src)" alt="Foto Tungku">
+        <img src="Guw.jpg" onclick="showImage(this.src)" alt="Foto Guw">
+        <img src="20260914_234617_184.jpg" onclick="showImage(this.src)" alt="Foto 2026">
       </div>
     </div>
     <span class="slide-number">08 / 08</span>
